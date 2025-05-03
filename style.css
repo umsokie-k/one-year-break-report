@@ -26,3 +26,9 @@ a {
     text-decoration: none;
     color: #0079FF;
 }
+
+#checklist {
+    padding: 40px 20px;
+    background-color: #00DFA2;
+    display: inline-block;
+}
