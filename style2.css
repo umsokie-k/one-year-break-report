@@ -7,16 +7,11 @@
 
 h1 {
     color: #FF0060;
-    text-align: center;
-    border-bottom: 1px solid gray;
-    margin: 0;
-    padding: 20px;
 }
 
 body {
     font-family:'BookkGothic-Bd';
-    margin: 0;
-    width: 100%;
+    text-align: center;
 }
 
 #explain {
@@ -31,34 +26,12 @@ body {
     display: inline-block;
 }
 
-ul {
+a {
     color: #0079FF;
-    border-right: 1px solid gray;
-    width: 100px;
-    margin: 0;
-    padding: 20px;
-    display: inline-block;
-    height: 100vh;
-}
-
-#grid{
-    display: grid;
-    grid-template-columns: 150px 1fr;
-}
-
-#grid > div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 #checklist {
+    padding: 10px 20px 10px 20px;
     background-color: #00DFA2;
-    padding: 10px 20px;
     display: inline-block;
-    margin: 0 auto;
-}
-
-h3 {
-    text-align: center;
 }
