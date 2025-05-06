@@ -36,7 +36,7 @@ ul {
     border-right: 1px solid gray;
     width: 100px;
     margin: 0;
-    padding: 20px;
+    padding: 160px 20px;
     display: inline-block;
     height: 100vh;
 }
@@ -60,5 +60,17 @@ ul {
 }
 
 h3 {
+    border-top: 1px solid gray;
     text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+#count{
+    text-align: center;
+}
+
+#number {
+    background-color: #F6FA70;
+    padding: 10px 20px;
 }
